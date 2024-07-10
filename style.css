@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.nav-container{
+    display: flex;
+    background-color: rgb(126, 97, 97);
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    font-style:bold;
+    margin-left: 10px;
+    
+}
+
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)) ;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.h1-div{
+    font-size: 100px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+  .p{
+    color:white;
+    font-size: 30px;
+    width: 50%;
+   margin: auto;
+   padding: 20px;
+  }
+
+  .btn-1{
+    background-color: red;
+    padding: 12px 20px;
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .btn-2{
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+  }
+
+  .service-container{
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+  .box{
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+  }
+
+  .icon{
+    width: 75px;
+    margin-bottom: 20px;
+  }
+
+
+  .service-description{
+   width: 50%;
+   font-size: 20px;
+  }
+
+  .first-two-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .author-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 35px;
+ 
+  }
+
+  .author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding: 20px;
+  }
+
+  .phone-call{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    padding-left: 20px;
+  }
+
+  .appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: brown;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+  }
+  
+  .h6-div{
+    margin-left: 10px;
+  }
